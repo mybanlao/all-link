@@ -23,7 +23,9 @@ body {
     position: relative;
     background-color: #e0e0e0;
     border: 1px solid #ccc;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
     text-align: start;
     display: flex;
     flex-direction: column;
@@ -38,29 +40,34 @@ body {
 .box_photo label {
     font-weight: bold;
     font-size: 150%;
-    display: block;
+ 
 }
 
 .box_photo p {
     text-align: justify;
     font-size: 100%;
-    text-justify: inter-word;
-    margin: 0px;
+    margin-top: 7px;
+    margin-bottom: 1px;
+   
 }
 #p_header {
     font-weight: bold;
 }
 
+
 .box_photo img {
     width: 100%;
     height: auto;
     margin-bottom: 5%;
+
 }
 
 .button-container {
     
     /* Pushes the button container to the bottom */
     text-align: center;
+    margin-bottom: 0px;
+    margin-top: auto;
 }
 
 .button-container button {
@@ -71,6 +78,8 @@ body {
     cursor: pointer;
     font-size: 14px;
     border-radius: 5px;
+    margin-bottom: 0px;
+    margin-top: auto;
 }
 
 .button-container button:hover {

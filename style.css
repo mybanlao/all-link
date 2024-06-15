@@ -1,14 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ID&family=Playwrite+IN:wght@225&family=Playwrite+NL:wght@200&display=swap');
+
+
+
 body {
+    
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(236, 236, 236, 0.85)), url('https://static.wixstatic.com/media/c02eadfb56394cffb3ece4367a3f4f71.png');
+   
 }
 
 #font_h1 {
-    font-size: 4vw;
+    color: #94821b;
+    font-size: 5vw;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: "Playwrite IN", cursive;
+    font-optical-sizing: auto;
+    font-weight: 224;
+    font-style: normal;
 }
 
 .main {
@@ -17,12 +31,13 @@ body {
     gap: 60px 20px;
     /* Set vertical gap to 20px and horizontal gap to 0 */
     padding: 10px;
+    padding-top: 0px;
 }
 
 .box_photo {
     position: relative;
-    background-color: #e0e0e0;
-    border: 1px solid #ccc;
+    background: linear-gradient(rgba(10, 65, 36, 0.90), rgba(10, 65, 36, 0.95)), url('https://static.wixstatic.com/media/c02eadfb56394cffb3ece4367a3f4f71.png');
+    /* border: 1px solid #ccc; */
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
@@ -34,12 +49,13 @@ body {
 }
 
 .box_photo:nth-child(odd) {
-    background-color: #d0d0d0;
+    background: linear-gradient(rgba(10, 65, 36, 0.90), rgba(10, 65, 36, 0.95)), url('https://static.wixstatic.com/media/c02eadfb56394cffb3ece4367a3f4f71.png');
 }
 
 .box_photo label {
     font-weight: bold;
     font-size: 150%;
+    color: rgb(234, 229, 229);
  
 }
 
@@ -48,6 +64,7 @@ body {
     font-size: 100%;
     margin-top: 7px;
     margin-bottom: 1px;
+    color: rgb(234, 229, 229);
    
 }
 #p_header {
@@ -72,8 +89,8 @@ body {
 
 .button-container button {
     padding: 10px 20px;
-    background-color: #008304;
-    color: white;
+    background-color: rgba(184, 134, 11, 0.90);
+    color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
     font-size: 14px;
@@ -83,7 +100,7 @@ body {
 }
 
 .button-container button:hover {
-    background-color: #37a53d;
+    background-color: rgba(184, 135, 11, 0.573);
 }
 
 @media (max-width: 600px) {
@@ -108,3 +125,4 @@ body {
         font-size: 100%;
     }
 }
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NL&display=swap');
